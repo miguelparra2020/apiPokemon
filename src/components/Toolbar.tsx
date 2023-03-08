@@ -5,9 +5,9 @@ const Toolbar: React.FC = () => {
         <div id="toolbar">
             <IonToolbar>
                 <IonAvatar slot="start" id='avatar'>
-                    <IonImg src="https://res.cloudinary.com/ddllgbo70/image/upload/v1638329235/assetsPortafolioMiguelPaez/miguelFoto400x400Webp_pfpnps.webp" id='img'></IonImg>
+                    <IonImg src="https://www.freepnglogos.com/uploads/pokemon-symbol-logo-png-31.png" id='img'></IonImg>
                 </IonAvatar>
-                <IonTitle>Miguel Páez</IonTitle>
+                <IonTitle>Api Pokemon</IonTitle>
             </IonToolbar>
         </div>
     );

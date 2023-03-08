@@ -3,9 +3,10 @@ import {   IonContent,  IonHeader,IonPage  } from '@ionic/react';
 // import {   flagOutline } from 'ionicons/icons';
 
 import Toolbar from '../components/Toolbar';
-import './Tab1.css';
 
-const Tab1: React.FC = () => {
+import DataPokens from '../components/dataPokens'
+
+const ApiPoke: React.FC = () => {
   
   return (
     <IonPage>
@@ -13,11 +14,10 @@ const Tab1: React.FC = () => {
           <Toolbar/>
       </IonHeader>
       <IonContent fullscreen >
-        Login
-
+        <DataPokens/>
       </IonContent>
     </IonPage>
   );
 };
 
-export default Tab1;
+export default ApiPoke;
